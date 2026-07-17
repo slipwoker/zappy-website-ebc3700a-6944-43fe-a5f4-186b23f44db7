@@ -768,10 +768,10 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
 <a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none !important">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
@@ -1279,7 +1279,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   </div>
 </section>
 
-<section data-band-index="1" class="index-services-preview-section" data-layout-spec="בית-services-preview">
+<section data-band-index="1" class="index-services-preview-section" data-layout-spec="בית-services-preview" id="index-services-preview-section">
   <div class="index-services-preview-section__container">
     <!-- Intro Block (Right side in RTL) -->
     <div class="index-services-preview-section__intro">
@@ -1287,18 +1287,18 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
       <p class="index-services-preview-section__intro-text">
         במאסטר ברבר אנו מציעים מגוון רחב של שירותי תספורת ועיצוב שיער לגברים, המותאמים אישית לסגנון ולצרכים שלכם. כל טיפול מבוצע על ידי הספרים המקצועיים והמנוסים שלנו, תוך שימוש במוצרים האיכותיים ביותר.
       </p>
-      <a href="/services" class="index-services-preview-section__intro-link">
+      <p class="zappy-editable"><a href="/services" class="index-services-preview-section__intro-link">
         לצפייה בתפריט המלא
         <svg data-element-type="icon" data-icon-type="svg" class="index-services-preview-section__arrow-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
         </svg>
       </a>
-    </div>
+    </p></div>
 
     <!-- Service Cards Grid (Left side in RTL) -->
     <div class="index-services-preview-section__grid">
       <!-- Card 1: Classic Haircut -->
-      <div class="index-services-preview-section__card">
+      <div class="index-services-preview-section__card" data-grid-item-index="0">
         <div class="index-services-preview-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M8 8H24V24H8V8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -1313,11 +1313,11 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         <p class="index-services-preview-section__card-text">
           תספורת מדויקת המותאמת למבנה הפנים ולסגנון האישי שלכם, בליווי חפיפה מרגיעה ועיסוי קרקפת קל.
         </p>
-        <span class="index-services-preview-section__card-detail" style="color: #1A1A1A !important">משך: 45 דקות</span>
-      </div>
+        <p class="zappy-editable"><span class="index-services-preview-section__card-detail" style="color: #1A1A1A !important">משך: 45 דקות</span>
+      </p></div>
 
       <!-- Card 2: Beard Shaping -->
-      <div class="index-services-preview-section__card">
+      <div class="index-services-preview-section__card" data-grid-item-index="1">
         <div class="index-services-preview-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M8 16C8 11.5817 11.5817 8 16 8C20.4183 8 24 11.5817 24 16V24H8V16Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -1329,11 +1329,11 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         <p class="index-services-preview-section__card-text">
           עיצוב זקן מקצועי הכולל קווי מתאר חדים, טיפול בשפם, שימוש בשמנים מזינים ומגע חם ומפנק של מגבת חמה.
         </p>
-        <span class="index-services-preview-section__card-detail" style="color: #1A1A1A !important">משך: 30 דקות</span>
-      </div>
+        <p><span class="index-services-preview-section__card-detail" style="color: rgb(26, 26, 26) !important;">משך: 30 דקות<br><br></span>
+      </p></div>
 
       <!-- Card 3: Event Grooming -->
-      <div class="index-services-preview-section__card">
+      <div class="index-services-preview-section__card" data-grid-item-index="2">
         <div class="index-services-preview-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M16 4L20 12H28L22 18L24 26L16 22L8 26L10 18L4 12H12L16 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -1343,11 +1343,11 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         <p class="index-services-preview-section__card-text">
           מראה מוקפד ומהודק לאירועים מיוחדים – חתונות, בר מצווה או כל אירוע בו אתם חייבים להיראות במיטבכם.
         </p>
-        <span class="index-services-preview-section__card-detail" style="color: #1A1A1A !important">משך: 60 דקות</span>
-      </div>
+        <p class="zappy-editable"><span class="index-services-preview-section__card-detail" style="color: #1A1A1A !important">משך: 60 דקות</span>
+      </p></div>
 
       <!-- Card 4: Fashion-Ready Styling -->
-      <div class="index-services-preview-section__card">
+      <div class="index-services-preview-section__card" data-grid-item-index="3">
         <div class="index-services-preview-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M8 8H24V24H8V8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -1362,8 +1362,8 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         <p class="index-services-preview-section__card-text">
           עיצוב שיער עדכני בהשראת הטרנדים החמים ביותר, תוך שימוש במוצרי עיצוב מקצועיים לשמירה על המראה לאורך זמן.
         </p>
-        <span class="index-services-preview-section__card-detail" style="color: #1A1A1A !important">משך: 40 דקות</span>
-      </div>
+        <p class="zappy-editable"><span class="index-services-preview-section__card-detail" style="color: #1A1A1A !important">משך: 40 דקות</span>
+      </p></div>
     </div>
   </div>
 
