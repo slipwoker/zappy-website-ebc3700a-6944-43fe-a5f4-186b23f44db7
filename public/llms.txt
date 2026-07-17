@@ -7,41 +7,41 @@
 ## Pages
 
 ### בית
-https://master-barber-ebc3700a.zappy5.app
+https://example.com
 מספרה לגברים עם הזמנת תורים אונליין בקלות ובמהירות. תספורות מעוצבות, שירות מקצועי ואווירה מנצחת. היכנסו עכשיו וקבעו את התור הבא שלכם עוד היום!
 
 ### שירותים
-https://master-barber-ebc3700a.zappy5.app/services
+https://example.com/services
 מגוון שירותי מספרה מקצועית בישראל: תספורת גברים לאירועים מיוחדים, עיצוב זקן וטיפולי פנים. גלו את החבילות המשתלמות שלנו והזמינו תור אונליין עכשיו!
 
 ### גלריה
-https://master-barber-ebc3700a.zappy5.app/gallery
+https://example.com/gallery
 גלריית תמונות מעוררת השראה של מספרה לגברים עם הזמנת תורים אונליין. צפו בעבודות הברברינג המרהיבות שלנו ובואו לקבל את הלוק שיהפוך אתכם לכוכבים!
 
 ### אודות
-https://master-barber-ebc3700a.zappy5.app/about
+https://example.com/about
 מאחורי מספרה מקצועית בישראל עומדים אנשי מקצוע עם תשוקה אמיתית. קראו על הסיפור שלנו, הערכים שמנחים אותנו, ולמה אנחנו הבחירה הנכונה לתספורת הגברים שלכם.
 
 ### צור קשר
-https://master-barber-ebc3700a.zappy5.app/contact
+https://example.com/contact
 צור קשר עם מספרה לגברים עם הזמנת תורים אונליין. השאירו פרטים, שאלו שאלות או בקשו ייעוץ אישי – אנחנו כאן כדי להפוך כל ביקור לחוויה בלתי נשכחת. מהרו להזמין!
 
 ### תודה - Master barber
-https://master-barber-ebc3700a.zappy5.app/thank-you
+https://example.com/thank-you
 Master barber - תודה - Master barber
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://master-barber-ebc3700a.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://master-barber-ebc3700a.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://master-barber-ebc3700a.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -51,8 +51,8 @@ Information about WCAG compliance and accessibility features.
 - (No contact details configured yet.)
 
 ### Contact form
-- URL: https://master-barber-ebc3700a.zappy5.app/contact
-- Endpoint: https://master-barber-ebc3700a.zappy5.app/api/email/contact-form
+- URL: https://example.com/contact
+- Endpoint: https://example.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -85,6 +85,6 @@ Hair Salon
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://master-barber-ebc3700a.zappy5.app/sitemap.xml
-- Robots: https://master-barber-ebc3700a.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://master-barber-ebc3700a.zappy5.app/llms-full.txt
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
